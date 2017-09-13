@@ -10,7 +10,7 @@
         android:id="@+id/button_get"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Retrofit的GET请求"
+        android:text="Retrofit的POST请求"
         android:textColor="#ffffff"
         android:background="@drawable/button_selector_style"
         android:textAllCaps="false"/>

@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/retrofitdemo01" />
             <option value="$PROJECT_DIR$/retrofitdemo02_get" />
+            <option value="$PROJECT_DIR$/retrofitdemo03_post" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
