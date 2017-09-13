@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/retrofitdemo01/retrofitdemo01.iml" filepath="$PROJECT_DIR$/retrofitdemo01/retrofitdemo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitdemo02_get/retrofitdemo02_get.iml" filepath="$PROJECT_DIR$/retrofitdemo02_get/retrofitdemo02_get.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitdemo03_post/retrofitdemo03_post.iml" filepath="$PROJECT_DIR$/retrofitdemo03_post/retrofitdemo03_post.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitdemo04_httputils/retrofitdemo04_httputils.iml" filepath="$PROJECT_DIR$/retrofitdemo04_httputils/retrofitdemo04_httputils.iml" />
     </modules>
   </component>
 </project>

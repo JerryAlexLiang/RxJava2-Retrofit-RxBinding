@@ -11,12 +11,6 @@ import retrofit2.http.Query;
  */
 public interface HttpService {
 
-
-     /*
-    @POST("/majax.action?method=getGiftList")
-    Call<GiftBean> queryGiftList(@Query("pageno")int pageno);
-     */
-
     //接口：       http://www.1688wan.com/majax.action?method=getGiftList
     //baseUrl：   http://www.1688wan.com/
     //补全url：    /majax.action?method=getGiftList
