@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/RxJava2_Retrofit_RxBinding.iml" filepath="$PROJECT_DIR$/RxJava2_Retrofit_RxBinding.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrofitdemo01/retrofitdemo01.iml" filepath="$PROJECT_DIR$/retrofitdemo01/retrofitdemo01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitdemo02_get/retrofitdemo02_get.iml" filepath="$PROJECT_DIR$/retrofitdemo02_get/retrofitdemo02_get.iml" />
     </modules>
   </component>
 </project>
