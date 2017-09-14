@@ -22,18 +22,31 @@ public class HttpUtils {
     //补全url：    /majax.action?method=getGiftList
     //post参数:   pageno=1
 
-
     private static final String BASE_URL = "http://www.1688wan.com";
     private static HttpService httpService;
+    private static Retrofit retrofit;
 
     public static HttpService getInstance() {
 
-        if (httpService == null) {
-            Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl(BASE_URL)
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .build();
-            httpService = retrofit.create(HttpService.class);
+//        if (httpService == null) {
+//            retrofit = new Retrofit.Builder()
+//                    .baseUrl(BASE_URL)
+//                    .addConverterFactory(GsonConverterFactory.create())
+//                    .build();
+//            httpService = retrofit.create(HttpService.class);
+//        }
+
+        if (retrofit == null) {
+            synchronized (HttpUtils.class) {
+                if (retrofit == null) {
+                    retrofit = new Retrofit.Builder()
+                            .baseUrl(BASE_URL)
+                            .addConverterFactory(GsonConverterFactory.create())
+                            .build();
+                    httpService = retrofit.create(HttpService.class);
+
+                }
+            }
         }
 
         return httpService;
